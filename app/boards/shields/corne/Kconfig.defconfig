@@ -14,7 +14,10 @@ endif
 if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT || SHIELD_CORNE_DONGLE
 
 config ZMK_SPLIT
-    default y
+	default y
+
+config ZMK_BLE
+	default y
 
 if ZMK_DISPLAY
 
